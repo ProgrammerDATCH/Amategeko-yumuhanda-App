@@ -4,12 +4,12 @@
     "slug": "AmategekoYumuhanda",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "dark",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/sign.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121212"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -17,14 +17,22 @@
     "ios": {
       "supportsTablet": true
     },
+    "distribution": "internal",
     "android": {
+      "buildType": "apk",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/sign.png",
+        "backgroundColor": "#121212"
+      },
+      "package": "com.programmerdatch.AmategekoYumuhanda"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e36d71a1-c5eb-4306-bee4-15d31fc7bdac"
+      }
     }
   }
 }
